@@ -1,9 +1,18 @@
 var express = require('express');
 var router = express.Router();
+const accounts = require('../controllers/user');
 
-/* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+
+router.get('/', (req, res, err, next) => {
+  if(err) next(err);
+  res.status(200).json({
+    "message": "Welcome to my blog"
+  })
 });
+
+
+router.post('/register', accounts.register);
+router.post('/login', accounts.login);
+
 
 module.exports = router;
