@@ -1,0 +1,51 @@
+.addempsea
+
+For sign up and login
+
+{
+    "username": "addempsea",
+    "email": "addempsea@gmail.com",
+    "password": "12345",
+    "isAdmin": true
+}
+
+{
+    "username": "folakemi",
+    "email": "folakemi@gmail.com",
+    "password": "123456",
+    "isAdmin": false
+}
+
+{
+    "username": "ademola",
+    "email": "ademola@gmail.com",
+    "password": "1234567",
+    "isAdmin": false
+}
+
+
+For stories 
+
+{
+    "title": "Does anything eat wasps",
+    "author": "addempsea",
+    "content": "Here goes the content............"
+}
+
+{
+    "title": "Why you should always eat",
+    "author": "Folakemi",
+    "content": "Here goes the magical content............"
+}
+
+{
+    "title": "Personalized Medicine: The Tailor style approach",
+    "author": "Ademola",
+    "content": "Here goes the grand content............"
+}
+
+{
+    "title": "The 10 best movies ever seen",
+    "author": "Rotten Tomatoes",
+    "content": "Here goes the  content............"
+}
